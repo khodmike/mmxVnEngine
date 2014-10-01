@@ -1,0 +1,17 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="MmxVnEngine/GlobalObject.cs">
+    <Files>
+      <File FileName="MmxVnEngine/SoundFile.cs" Line="24" Column="1" />
+      <File FileName="MmxVnEngine/DirectoryWorker.cs" Line="72" Column="66" />
+      <File FileName="MmxVnEngine/TextFileParser.cs" Line="1" Column="1" />
+      <File FileName="MmxVnEngine/WorkForm.cs" Line="42" Column="3" />
+      <File FileName="MmxVnEngine/CommandEX.cs" Line="361" Column="5" />
+      <File FileName="MmxVnEngine/GlobalObject.cs" Line="23" Column="4" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

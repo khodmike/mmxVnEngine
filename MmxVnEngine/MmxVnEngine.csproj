@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>10.0.0</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{BAC3808A-F260-49EF-B047-5404536F5FB5}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>MmxVnEngine</RootNamespace>
+    <AssemblyName>MmxVnEngine</AssemblyName>
+    <TargetFrameworkVersion>v3.0</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug</OutputPath>
+    <DefineConstants>DEBUG;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+    <ConsolePause>false</ConsolePause>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <DebugType>none</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+    <ConsolePause>false</ConsolePause>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <ItemGroup>
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="WindowsBase" />
+    <Reference Include="System" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DataFileWorker.cs" />
+    <Compile Include="LogicParser.cs" />
+    <Compile Include="VarDispetcher.cs" />
+    <Compile Include="Scene.cs" />
+    <Compile Include="MmxMessanger.cs" />
+    <Compile Include="WorkForm.cs" />
+    <Compile Include="MainMenuForm.cs" />
+    <Compile Include="GlobalObject.cs" />
+    <Compile Include="GlobalProparties.cs" />
+    <Compile Include="Command.cs" />
+    <Compile Include="DirectoryWorker.cs" />
+    <Compile Include="TextFileParser.cs" />
+    <Compile Include="ChooseCommand.cs" />
+    <Compile Include="CommandEX.cs" />
+    <Compile Include="SoundFile.cs" />
+  </ItemGroup>
+  <ProjectExtensions>
+    <MonoDevelop>
+      <Properties>
+        <Policies>
+          <TextStylePolicy FileWidth="120" TabsToSpaces="False" inheritsSet="VisualStudio" inheritsScope="text/plain" scope="text/x-csharp" />
+          <CSharpFormattingPolicy AnonymousMethodBraceStyle="NextLine" StatementBraceStyle="NextLine" inheritsSet="Mono" inheritsScope="text/x-csharp" scope="text/x-csharp" />
+        </Policies>
+      </Properties>
+    </MonoDevelop>
+  </ProjectExtensions>
+</Project>

@@ -1,0 +1,38 @@
+           .bg red.bmp
+           1
+       2
+                    .shpers  green.bmp     2
+.shpers green.bmp 4
+           3
+//
+        4
+   .hideall
+
+
+                  5
+.shpers green.bmp 3
+
+6
+
+.var logic  a false
+
+
+.choose opt Saber             Lanser
+scene scene2.txt
+
+opt Rin
+scene scene3.txt
+
+opt Sacura
+scene scene.txt
+
+
+
+
+
+
+
+
+
+
+

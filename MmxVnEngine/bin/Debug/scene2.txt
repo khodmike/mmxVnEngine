@@ -1,0 +1,14 @@
+﻿.bg  green.bmp
+
+ 100
+ 200
+.shpers  red.bmp     4
+                      3000
+//
+        4000
+.hideAll
+
+
+                                       5000
+
+
